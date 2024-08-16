@@ -1,6 +1,6 @@
 # `topk` Function
 
-The `topk` function returns the **topk** largest elements from a sequence of numerical data. It can apply an aggregation function, such as min, avg, or max, etc. to the **topk** elements and return the value in the result.
+The `topk` function returns the **topk** largest elements from a sequence of numerical data. It can apply an aggregation function, such as `min`, `avg`, or `max`, etc. to the **topk** elements and return the value in the result.
 
 ## Prerequisite
 Ensure that you have the following:
