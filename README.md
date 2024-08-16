@@ -1,8 +1,8 @@
 # `topk` Function
 
-The `topk` function returns the **top k** largest elements from a sequence of numerical data. It can apply an aggregation function, such as min, avg, or max, etc. to the **top k** elements and return the value in the result.
+The `topk` function returns the **topk** largest elements from a sequence of numerical data. It can apply an aggregation function, such as min, avg, or max, etc. to the **topk** elements and return the value in the result.
 
-## Prerequisites
+## Prerequisite
 Ensure that you have the following:
 
 * An appropriate [Python version](https://www.python.org/downloads/), such as 3.5 or newer to avoid syntax errors related to type annotations.
@@ -34,7 +34,7 @@ The `topk` function can be beneficial in various use cases where the output need
 Here are some common steps to use this function:
 
 * **Input validation:** The function checks if `k` is a positive integer in the list and that the aggregation function, if provided, is callable.
-* **Handling the aggregation function:** If the aggregation function is passed,such as sum, min, max, etc., it applies the function to the `topk` elements.
+* **Handling the aggregation function:** If the aggregation function is passed,such as `sum`, `min`, `max`, etc., it is applied to the `topk` elements.
 * **Sorting:** The sequence is then sorted in descending order.
 * **Error handling:** The error handling for scenarios such as:
     * **`k` is invalid**. Example:
